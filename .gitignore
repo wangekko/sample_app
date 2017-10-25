@@ -22,3 +22,5 @@
 
 # Ignore database
 /config/database.yml
+/config/secrets.yml
+/.idea
