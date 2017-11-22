@@ -1,0 +1,32 @@
+<div class="container-fluid">
+  <header class="jumbotron hero-spacer">
+    <h1>A Warm Welcome to Sample App!</h1>
+    <p>一个Sample测试版本</p>
+
+    <p>
+      <% if current_user %>
+          hello! <%= current_user.name %>
+      <% else %>
+          <a href="#" class="btn btn-primary btn-large" id="login_panel"> Log in!</a>
+      <% end %>
+
+    </p>
+
+    <h3>
+      目前功能
+    </h3>
+    <li>登录，权限验证</li>
+    <h3>
+      TODO
+    <li>用户个人简介还未开发</li>
+
+    <h3>
+      Usage
+    </h3>
+    <li>待做</li>
+
+  </header>
+
+  <hr>
+  <hr>
+</div>
